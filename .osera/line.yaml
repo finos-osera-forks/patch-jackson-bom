@@ -64,6 +64,7 @@ members:
   - com.fasterxml.jackson.module:jackson-module-scala_2.12
   - com.fasterxml.jackson.module:jackson-module-scala_2.13
   - com.fasterxml.jackson.module:jackson-module-scala_3
+  - com.fasterxml.jackson.dataformat:jackson-dataformats-text
 repositories:
   patch-jackson-core:
     - com.fasterxml.jackson.core:jackson-core
@@ -74,6 +75,7 @@ repositories:
     - com.fasterxml.jackson.dataformat:jackson-dataformat-properties
     - com.fasterxml.jackson.dataformat:jackson-dataformat-toml
     - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+    - com.fasterxml.jackson.dataformat:jackson-dataformats-text
   patch-jackson-annotations:
     - com.fasterxml.jackson.core:jackson-annotations
   patch-jackson-dataformat-xml:
