@@ -1,0 +1,161 @@
+# Licensed under the Apache License, Version 2.0: https://www.apache.org/licenses/LICENSE-2.0
+line: jackson-2.19
+bom: com.fasterxml.jackson:jackson-bom
+repository: patch-jackson-bom
+members:
+  - com.fasterxml.jackson:jackson-bom
+  - com.fasterxml.jackson.core:jackson-annotations
+  - com.fasterxml.jackson.core:jackson-core
+  - com.fasterxml.jackson.core:jackson-databind
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-avro
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-ion
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-properties
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-toml
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  - com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections
+  - com.fasterxml.jackson.datatype:jackson-datatype-guava
+  - com.fasterxml.jackson.datatype:jackson-datatype-hibernate4
+  - com.fasterxml.jackson.datatype:jackson-datatype-hibernate5
+  - com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta
+  - com.fasterxml.jackson.datatype:jackson-datatype-hibernate6
+  - com.fasterxml.jackson.datatype:jackson-datatype-hppc
+  - com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp
+  - com.fasterxml.jackson.datatype:jackson-datatype-jaxrs
+  - com.fasterxml.jackson.datatype:jackson-datatype-javax-money
+  - com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+  - com.fasterxml.jackson.datatype:jackson-datatype-joda
+  - com.fasterxml.jackson.datatype:jackson-datatype-joda-money
+  - com.fasterxml.jackson.datatype:jackson-datatype-json-org
+  - com.fasterxml.jackson.datatype:jackson-datatype-jsr310
+  - com.fasterxml.jackson.datatype:jackson-datatype-jsr353
+  - com.fasterxml.jackson.datatype:jackson-datatype-moneta
+  - com.fasterxml.jackson.datatype:jackson-datatype-pcollections
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider
+  - com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider
+  - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider
+  - com.fasterxml.jackson.jr:jackson-jr-all
+  - com.fasterxml.jackson.jr:jackson-jr-annotation-support
+  - com.fasterxml.jackson.jr:jackson-jr-extension-javatime
+  - com.fasterxml.jackson.jr:jackson-jr-objects
+  - com.fasterxml.jackson.jr:jackson-jr-retrofit2
+  - com.fasterxml.jackson.jr:jackson-jr-stree
+  - com.fasterxml.jackson.module:jackson-module-afterburner
+  - com.fasterxml.jackson.module:jackson-module-android-record
+  - com.fasterxml.jackson.module:jackson-module-blackbird
+  - com.fasterxml.jackson.module:jackson-module-guice
+  - com.fasterxml.jackson.module:jackson-module-guice7
+  - com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+  - com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations
+  - com.fasterxml.jackson.module:jackson-module-jsonSchema
+  - com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta
+  - com.fasterxml.jackson.module:jackson-module-kotlin
+  - com.fasterxml.jackson.module:jackson-module-mrbean
+  - com.fasterxml.jackson.module:jackson-module-no-ctor-deser
+  - com.fasterxml.jackson.module:jackson-module-osgi
+  - com.fasterxml.jackson.module:jackson-module-parameter-names
+  - com.fasterxml.jackson.module:jackson-module-paranamer
+  - com.fasterxml.jackson.module:jackson-module-scala_2.11
+  - com.fasterxml.jackson.module:jackson-module-scala_2.12
+  - com.fasterxml.jackson.module:jackson-module-scala_2.13
+  - com.fasterxml.jackson.module:jackson-module-scala_3
+repositories:
+  patch-jackson-core:
+    - com.fasterxml.jackson.core:jackson-core
+  patch-jackson-databind:
+    - com.fasterxml.jackson.core:jackson-databind
+  patch-jackson-dataformats-text:
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-csv
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-properties
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-toml
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-yaml
+  patch-jackson-annotations:
+    - com.fasterxml.jackson.core:jackson-annotations
+  patch-jackson-dataformat-xml:
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-xml
+  patch-jackson-dataformats-binary:
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-avro
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-cbor
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-ion
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-protobuf
+    - com.fasterxml.jackson.dataformat:jackson-dataformat-smile
+  patch-jackson-datatype-hibernate:
+    - com.fasterxml.jackson.datatype:jackson-datatype-hibernate4
+    - com.fasterxml.jackson.datatype:jackson-datatype-hibernate5-jakarta
+    - com.fasterxml.jackson.datatype:jackson-datatype-hibernate5
+    - com.fasterxml.jackson.datatype:jackson-datatype-hibernate6
+  patch-jackson-datatype-joda:
+    - com.fasterxml.jackson.datatype:jackson-datatype-joda
+  patch-jackson-datatypes-collections:
+    - com.fasterxml.jackson.datatype:jackson-datatype-eclipse-collections
+    - com.fasterxml.jackson.datatype:jackson-datatype-guava
+    - com.fasterxml.jackson.datatype:jackson-datatype-hppc
+    - com.fasterxml.jackson.datatype:jackson-datatype-pcollections
+  patch-jackson-datatypes-misc:
+    - com.fasterxml.jackson.datatype:jackson-datatype-jakarta-jsonp
+    - com.fasterxml.jackson.datatype:jackson-datatype-javax-money
+    - com.fasterxml.jackson.datatype:jackson-datatype-joda-money
+    - com.fasterxml.jackson.datatype:jackson-datatype-json-org
+    - com.fasterxml.jackson.datatype:jackson-datatype-jsr353
+    - com.fasterxml.jackson.datatype:jackson-datatype-moneta
+  patch-jackson-jakarta-rs-providers:
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-base
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-cbor-provider
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-json-provider
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-smile-provider
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-xml-provider
+    - com.fasterxml.jackson.jakarta.rs:jackson-jakarta-rs-yaml-provider
+  patch-jackson-jaxrs-providers:
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-base
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-cbor-provider
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-smile-provider
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-xml-provider
+    - com.fasterxml.jackson.jaxrs:jackson-jaxrs-yaml-provider
+    - com.fasterxml.jackson.datatype:jackson-datatype-jaxrs
+  patch-jackson-jr:
+    - com.fasterxml.jackson.jr:jackson-jr-all
+    - com.fasterxml.jackson.jr:jackson-jr-annotation-support
+    - com.fasterxml.jackson.jr:jackson-jr-extension-javatime
+    - com.fasterxml.jackson.jr:jackson-jr-objects
+    - com.fasterxml.jackson.jr:jackson-jr-retrofit2
+    - com.fasterxml.jackson.jr:jackson-jr-stree
+  patch-jackson-module-jsonSchema:
+    - com.fasterxml.jackson.module:jackson-module-jsonSchema-jakarta
+    - com.fasterxml.jackson.module:jackson-module-jsonSchema
+  patch-jackson-module-kotlin:
+    - com.fasterxml.jackson.module:jackson-module-kotlin
+  patch-jackson-module-scala:
+    - com.fasterxml.jackson.module:jackson-module-scala_2.11
+    - com.fasterxml.jackson.module:jackson-module-scala_2.12
+    - com.fasterxml.jackson.module:jackson-module-scala_2.13
+    - com.fasterxml.jackson.module:jackson-module-scala_3
+  patch-jackson-modules-base:
+    - com.fasterxml.jackson.module:jackson-module-afterburner
+    - com.fasterxml.jackson.module:jackson-module-android-record
+    - com.fasterxml.jackson.module:jackson-module-blackbird
+    - com.fasterxml.jackson.module:jackson-module-guice
+    - com.fasterxml.jackson.module:jackson-module-guice7
+    - com.fasterxml.jackson.module:jackson-module-jakarta-xmlbind-annotations
+    - com.fasterxml.jackson.module:jackson-module-jaxb-annotations
+    - com.fasterxml.jackson.module:jackson-module-mrbean
+    - com.fasterxml.jackson.module:jackson-module-no-ctor-deser
+    - com.fasterxml.jackson.module:jackson-module-osgi
+    - com.fasterxml.jackson.module:jackson-module-paranamer
+  patch-jackson-modules-java8:
+    - com.fasterxml.jackson.module:jackson-module-parameter-names
+    - com.fasterxml.jackson.datatype:jackson-datatype-jdk8
+    - com.fasterxml.jackson.datatype:jackson-datatype-jsr310
